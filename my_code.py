@@ -1,5 +1,8 @@
 def even_odd(x):
-    # User code goes here
+    if x%2==0:
+        return("even")
+    else:
+        return("odd")
     # function should return "even" if the number (x) is even, and "odd" if the the number is odd
     
 
@@ -7,7 +10,7 @@ def even_odd(x):
 if __name__ == '__main__':
     # Test your code with this first
     # Change the argument to try different values. Feel free to use multiple print statements to test several values at once.
-    print(even_odd(6))
+    print(even_odd(78))
 
 
     # After you are satisfied with your results, comment out the above print statement(s).
